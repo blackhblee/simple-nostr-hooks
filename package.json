@@ -1,0 +1,37 @@
+{
+  "name": "simple-nostr-hooks",
+  "version": "0.0.1",
+  "description": "Nostr hooks implemented in React and TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackhblee/simple-nostr-hooks.git"
+  },
+  "keywords": [
+    "nostr"
+  ],
+  "author": "blackhblee <blackhblee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blackhblee/simple-nostr-hooks/issues"
+  },
+  "homepage": "https://github.com/blackhblee/simple-nostr-hooks#readme",
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "dependencies": {
+    "@nostr-dev-kit/ndk": "^2.4.2",
+    "nostr-tools": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.57",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3"
+  },
+  "types": "dist/index.d.ts"
+}

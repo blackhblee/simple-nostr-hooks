@@ -1,0 +1,17 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "ESNext",
+    "target": "ES2018",
+    "lib": ["ES2018", "DOM", "DOM.Iterable"],
+    "jsx": "react",
+    "sourceMap": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "typeRoots": ["index.d.ts", "node_modules/@types"],
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  }
+}
