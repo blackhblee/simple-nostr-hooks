@@ -1,6 +1,6 @@
 {
   "name": "simple-nostr-hooks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Nostr hooks implemented in React and TypeScript",
   "main": "dist/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blackhblee/simple-nostr-hooks.git"
+    "url": "https://github.com/blackhblee/simple-nostr-hooks.git"
   },
   "keywords": [
     "nostr"
